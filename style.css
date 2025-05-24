@@ -213,7 +213,7 @@ header{
     }
 }
 .menu-mobile.active{
-    clip-path: circle(0% at top left);
+    clip-path: circle(150% at top left);
 }
 
 /* desplegable */
