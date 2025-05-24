@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <title>Recetas Caseras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Recetas Caseras</h1>
+    <p>El sabor de casa en cada plato</p>
+  </header>
+
+  <main class="contenido">
+
+    <!-- Columna izquierda con varias imágenes -->
+    <div class="columna-izquierda">
+      <img src="imagenes/imagen 1.jpg" alt="Receta 1">
+      <img src="imagenes/imagen.jpg" alt="Receta 2">
+      <img src="imagenes/imagen.jpg" alt="Receta 3">
+    </div>
+
+    <!-- Columna derecha con imagen y texto -->
+    <div class="columna-derecha">
+      <img src="imagenes/imagen 1.jpg" alt="Receta destacada" class="imagen-principal">
+      <div class="texto-destacado">
+        <h2>Pollo a la parrilla con hierbas</h2>
+        <p>Una receta deliciosa, perfecta para compartir en familia. Aprende cómo preparar este plato lleno de sabor usando ingredientes simples y naturales.</p>
+      </div>
+    </div>
+  </main>
+
+    <div class="centrado-vertical">
+        <h2>Título centrado</h2>
+        <img src="imagenes/receta.jpg" alt="Receta centrada" />
+        <p>Este es un texto descriptivo centrado debajo de la imagen, y todo está perfectamente alineado en el centro vertical y horizontal.</p>
+    </div>
+
+
+
+    <div class="contenedor-flex">
+        <div class="texto">
+            <h2>Título uniforme</h2>
+            <p>
+            Este texto mantiene su ancho fijo, con líneas alineadas, para que la imagen a su lado
+            pueda igualar su altura y verse equilibrada.
+            </p>
+        </div>
+        <img src="imagenes/receta.jpg" alt="Receta alineada" />
+    </div>
+
+    <!-- Cartas de diefrentes comidas -->
+     <hr>
+        <div class="title-cards">
+      <h2>RECETAS QUE TE PUEDEN GUSTAR</h2>
+    </div>
+    <div class="container-card">
+      <div class="card">
+        <figure>
+          <img
+            src="imagenes/chicharron.webp"
+          />
+        </figure>
+        <div class="contenido-card">
+          <h3>Pan con chicharrón</h3>
+          <p>
+            Tiempo: 70 mnts<br>
+            Porciones:<br>
+            Postre peruano hecho con maíz morado, frutas secas y especias.
+          </p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+      <div class="card">
+        <figure>
+          <img
+            src="imagenes/tamales.jpg"
+          />
+        </figure>
+        <div class="contenido-card">
+          <h3>Tamales peruano</h3>
+          <p>
+            Tiempo: 45 mnts <br>
+            Porciones:<br>
+            Postre tradicional hecho con arroz, leche, azúcar y canela.
+          </p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+      <div class="card">
+        <figure>
+          <img
+            src="imagenes/bolw.webp"
+          />
+        </figure>
+        <div class="contenido-card">
+          <h3> Bowl energético de avena con frutas y semillas</h3>
+          <p>
+            Tiempo: 45 mnts <br>
+            Porciones:<br>
+            Avena cocida con frutas frescas, semillas de chía, nueces y un toque de miel.
+          </p>
+          <a href="#">Leer Màs</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!--Noticias Centrada--> 
+     <div class="centrado-vertical">
+        <h2>Título centrado</h2>
+        <img src="imagenes/receta.jpg" alt="Receta centrada" />
+        <p>Este es un texto descriptivo centrado debajo de la imagen, y todo está perfectamente alineado en el centro vertical y horizontal.</p>
+    </div>
+
+    <!--comentarios-->
+<div class="wrapper">
+  <h3>Déjanos tu opinión </h3>
+  <form action="#">
+    <div class="rating">
+      <input type="number" name="rating" hidden>
+      <i class='bx bx-star star' style="--i: 0;"></i>
+      <i class='bx bx-star star' style="--i: 1;"></i>
+      <i class='bx bx-star star' style="--i: 2;"></i>
+      <i class='bx bx-star star' style="--i: 3;"></i>
+      <i class='bx bx-star star' style="--i: 4;"></i>
+    </div>
+    <textarea name="opinion" cols="30" rows="5" placeholder="Tu opinión..."></textarea>
+    <div class="btn-group">
+      <button type="submit" class="btn submit">Enviar</button>
+      <button type="button" class="btn cancel">Cancelar</button>
+    </div>
+  </form>
+</div>
+
+  <script src="categorias.js"></script>
+    
+
+  <footer>
+    <p>&copy; 2025 Recetas Caseras</p>
+  </footer>
+
+</body>
+</html>
